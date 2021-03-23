@@ -8,7 +8,7 @@ Python boto library
 
 Create an IAM Role with Policy AmazonEC2FullAccess and attach it to the Ansible master instance.
 
-vim aws-vpc.yaml
+##### vim aws-vpc.yaml
 ```
 ---
 - name: AWS VPC
