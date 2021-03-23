@@ -3,8 +3,11 @@
 #### Prerequisite:
 
 Install Ansible on an ec2 Instance and setup it as Ansible-master
+
 Python boto library
+
 Create an IAM Role with Policy AmazonEC2FullAccess and attach it to the Ansible master instance.
+
 vim aws-vpc.yaml
 ```
 ---
